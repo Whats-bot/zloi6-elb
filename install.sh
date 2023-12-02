@@ -53,7 +53,7 @@ if pkg install git -y 2>&1 >/dev/null | grep -E -i -q '(command not found|unable
 error=$(pkg install git -y 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar Git. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/The-LoliBot-MD\ncd The-LoliBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Whats-bot/zloi6-elb\ncd zloi6-elb\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mGit se ha instalado correctamente. \n\033[0m" 
@@ -197,11 +197,11 @@ echo -e "\e[35m
 ────────────────────────────────────────────────────\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/elrebelde21/The-LoliBot-MD.git
+git clone https://github.com/Whats-bot/zloi6-elb.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente..\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\n\033[0m" 
-cd The-LoliBot-MD
+cd zloi6-elb
 
 echo -e "\e[36m
 ██╗███╗░░██╗░██████╗████████╗░█████╗░██╗░░░░░██╗░░░░░  ███╗░░██╗██████╗░███╗░░░███╗
